@@ -9,10 +9,12 @@ import org.springframework.web.bind.annotation.RequestMapping;
  */
 @Controller
 public class IndexController {
+    private static int i =0;
 
     @RequestMapping("/helloworld")
-    public String hello() {
-        System.out.println("hello world");
+    public  String hello() {
+        i++;
+        System.out.println("hello world:"+i);
         return "success";
     }
 }

@@ -1,7 +1,7 @@
 package com.pay.util;
 
 import com.google.common.base.CaseFormat;
-import com.kk.pay.weixin.model.PayOrderParam;
+import com.pay.model.PayOrderParam;
 
 import java.beans.BeanInfo;
 import java.beans.Introspector;
